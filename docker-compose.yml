@@ -1,0 +1,29 @@
+version: "3.9"
+
+networks:
+  tecmides-network:
+    driver: bridge
+
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_DB: tecmides
+      POSTGRES_USER: tecmides
+      POSTGRES_PASSWORD: teste321
+    ports:
+      - "5432:5432"
+    networks:
+      - tecmides-network
+
+  tecmides-api:
+    image: rodrigomsr2/tecmides-api
+    command: ["/wait-for-it.sh", "postgres:5432", "-t", "30", "--", "java", "-jar", "api.jar"]
+    environment:
+      DB_HOST: postgres
+    ports:
+      - "8080:8080"
+    networks:
+      - tecmides-network
+    depends_on:
+      - postgres

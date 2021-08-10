@@ -1,11 +1,8 @@
 package br.inf.ufrgs.tecmides.entities.rule;
 
 import br.inf.ufrgs.tecmides.entities.AuditModel;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
@@ -21,7 +18,9 @@ import javax.persistence.Transient;
 @Entity
 public class Rule extends AuditModel {
 
-    @Id
+	private static final long serialVersionUID = -8784463902184879871L;
+
+	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 

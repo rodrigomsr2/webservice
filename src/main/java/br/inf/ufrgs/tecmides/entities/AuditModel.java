@@ -22,7 +22,9 @@ import org.hibernate.annotations.UpdateTimestamp;
 )
 public abstract class AuditModel implements Serializable {
 
-    @Temporal(TemporalType.TIMESTAMP)
+	private static final long serialVersionUID = -7059508243275770758L;
+
+	@Temporal(TemporalType.TIMESTAMP)
     @Column(name = "created_at", nullable = false, updatable = false)
     @CreationTimestamp
     @JsonIgnore

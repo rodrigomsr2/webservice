@@ -2,8 +2,6 @@ package br.inf.ufrgs.tecmides.entities.rule;
 
 import br.inf.ufrgs.tecmides.entities.AuditModel;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import java.util.HashMap;
-import java.util.Map;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -12,7 +10,9 @@ import javax.persistence.Id;
 @Entity
 public class RuleModelInstance extends AuditModel {
 
-    @Id
+	private static final long serialVersionUID = 6974080256662427589L;
+
+	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @JsonIgnore
     private Long id;

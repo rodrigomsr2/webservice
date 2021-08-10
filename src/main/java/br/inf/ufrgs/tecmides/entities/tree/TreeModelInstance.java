@@ -10,7 +10,9 @@ import javax.persistence.Id;
 @Entity
 public class TreeModelInstance extends AuditModel {
 
-    @Id
+	private static final long serialVersionUID = -288348011260600948L;
+
+	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @JsonIgnore
     private Long id;

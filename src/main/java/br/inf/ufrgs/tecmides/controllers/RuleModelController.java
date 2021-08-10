@@ -8,9 +8,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RequestMapping("/rule_model")
@@ -22,7 +22,7 @@ public class RuleModelController {
 
     private final Logger log = LoggerFactory.getLogger(RuleModelController.class);
 
-    @RequestMapping(value = "/classify", method = RequestMethod.POST)
+    @PostMapping("/classify")
     public ResponseEntity classify( @RequestBody List<RuleModelInstance> instances ) {
         try {
             log.trace("Classify method called");
@@ -35,7 +35,7 @@ public class RuleModelController {
         }
     }
 
-    @RequestMapping(value = "/contribute", method = RequestMethod.POST)
+    @PostMapping("/contribute")
     public ResponseEntity contribute( @RequestBody List<RuleModelInstance> instances ) {
         try {
             service.updateTrainingData(instances);
