@@ -44,7 +44,6 @@ services:
       
   moodle:
     image: docker.io/bitnami/moodle:3
-    command: bash -c "mkdir /bitnami/moodle/report/tecmides && install_packages git && git clone https://github.com/rodrigomsr2/plugin.git /bitnami/moodle/report/tecmides"
     ports:
       - '80:8080'
       - '443:8443'
