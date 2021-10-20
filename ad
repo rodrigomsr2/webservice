@@ -1,0 +1,248 @@
+[33mcommit 708bd3425e28e77cd72711fedc69f9abd054e873[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: rodrigomsr2 <rodrigomsr2@gmail.com>
+Date:   Sun Aug 22 07:56:20 2021 -0300
+
+    teste de mudança dos delimitadores
+
+[33mcommit 02dc668c28ecb582484f68d2198283c3b67a9e4d[m
+Author: rodrigomsr2 <rodrigomsr2@gmail.com>
+Date:   Sun Aug 22 07:30:55 2021 -0300
+
+    Adição do moodle no docker-compose
+
+[33mcommit cf59667924d92c8f714b4181c41d1970fa52aedd[m
+Author: rodrigomsr2 <rodrigomsr2@gmail.com>
+Date:   Mon Aug 9 21:26:28 2021 -0300
+
+    docker
+
+[33mcommit cd0ea5dc9ded6f1c7450bd912185f6483c4ed999[m
+Author: Luís Augusto Weber Mercado <lawmercado@inf.ufrgs.br>
+Date:   Mon Dec 10 21:03:44 2018 -0200
+
+    Create README.md
+
+[33mcommit 8884e28efc9ccc58c8512031333f093846789a5a[m
+Author: Luís Augusto Weber Mercado <lawmercado@inf.ufrgs.br>
+Date:   Mon Dec 10 21:02:48 2018 -0200
+
+    Create LICENSE
+
+[33mcommit d2f15c8de117d900018933a2b38917e7dae983fe[m
+Merge: 9e7db5b 18a6f34
+Author: Luís Augusto Weber Mercado <luiswebmercado@gmail.com>
+Date:   Thu Oct 25 16:38:38 2018 -0300
+
+    Merge pull request #1 from cognitivabrasil/master
+    
+    Aplicando modificações do webservice
+
+[33mcommit 18a6f34e7b12c70762e30c8c43618f46c24d44d3[m
+Author: Luís Augusto Weber Mercado <luiswebmercado@gmail.com>
+Date:   Wed Oct 24 00:03:12 2018 -0300
+
+    Refatoração. Melhoria na robustez do servidor.
+
+[33mcommit 15ac4328082348fed0a8bb3959a10b134c4c7b43[m
+Author: Luís Augusto Weber Mercado <luiswebmercado@gmail.com>
+Date:   Fri Oct 19 20:34:39 2018 -0300
+
+    Correção de bugs.
+
+[33mcommit ad058be4ddce4096922b4d5229d8bed2ac77423a[m
+Author: Luís Augusto Weber Mercado <luiswebmercado@gmail.com>
+Date:   Fri Oct 19 12:59:38 2018 -0300
+
+    Refatoração de código
+
+[33mcommit c1f7172a270c4db06e5b22a97172b368466ff286[m
+Author: Luís Augusto Weber Mercado <luiswebmercado@gmail.com>
+Date:   Fri Oct 19 01:37:58 2018 -0300
+
+    Adicionando novo modelo. Refatoração geral da implementação.
+
+[33mcommit ecca891a3eee99b58670df10cd532db1f9c7136f[m
+Author: Luís Augusto Weber Mercado <lawmercado@inf.ufrgs.br>
+Date:   Fri Sep 21 17:07:20 2018 -0300
+
+    Correção de bugs no processo de geração das regras.
+
+[33mcommit 20f5aa835cddcdba617b5eb273f86e9954ef97e1[m
+Author: Luís Augusto Weber Mercado <lawmercado@inf.ufrgs.br>
+Date:   Fri Sep 14 16:57:36 2018 -0300
+
+    Refatoração de código. Correção de bugs.
+
+[33mcommit 61a630311b761a72a0621fa7d8e328e402839645[m
+Author: Luiz Henrique Longhi Rossi <lh.rossi@gmail.com>
+Date:   Mon Sep 10 12:34:48 2018 -0300
+
+    Teste de service.
+
+[33mcommit 568435b3703973f1a03c88da1ac5fe9ccfaf16bc[m
+Author: Luiz Henrique Longhi Rossi <lh.rossi@gmail.com>
+Date:   Mon Sep 10 12:11:40 2018 -0300
+
+    logando chamadas
+
+[33mcommit dd8be07a0e3a7160cc30e168eea9a6612cda577b[m
+Author: Luís Augusto Weber Mercado <luiswebmercado@gmail.com>
+Date:   Tue Sep 4 20:08:39 2018 -0300
+
+    Reimplementação do processo realizado no plugin no servidor webservice. Em processo de validação, porém funcional.
+
+[33mcommit f0abc57cbc242a3e520da92bb28bbebcbe946dbc[m
+Author: Luiz Rossi <lh.rossi@gmail.com>
+Date:   Sat Aug 25 11:36:11 2018 -0300
+
+    Configuração do postgres para o projeto
+
+[33mcommit 0419487b46168cc60cc758a018c494091097d47b[m
+Author: Luís Augusto Weber Mercado <luiswebmercado@gmail.com>
+Date:   Fri Aug 24 20:12:06 2018 -0300
+
+    Adição das entidades básicas para o modelo atual. Preparação geral para reimplementação da regra de negócio do plugin.
+
+[33mcommit 605f6c2c733a508cde28a017944eae1b1ed93094[m
+Author: Luiz Henrique Longhi Rossi <lh.rossi@gmail.com>
+Date:   Thu Aug 9 13:38:02 2018 -0300
+
+    só tirei parenteses
+
+[33mcommit 666326d61fd6d20fab10ebb95c61d1c1edee13dd[m
+Author: Luiz Henrique Longhi Rossi <lh.rossi@gmail.com>
+Date:   Thu Aug 9 13:37:07 2018 -0300
+
+    refatorado para operações funcionais
+
+[33mcommit 056a6b7df6d31b40acd28381b6f339d82aa0ceb6[m
+Author: Luiz Henrique Longhi Rossi <lh.rossi@gmail.com>
+Date:   Thu Aug 9 13:22:00 2018 -0300
+
+    configuração inicial JPA
+
+[33mcommit 3f86220a63c6b43464ac3503a1ad0987fd71eb59[m
+Author: Luiz Henrique Longhi Rossi <lh.rossi@gmail.com>
+Date:   Tue Aug 7 11:01:34 2018 -0300
+
+    adicionado o pacote de services
+
+[33mcommit 67a4a9908a12900c4321f5a2e9db5e61603b7b50[m
+Author: Luiz Henrique Longhi Rossi <lh.rossi@gmail.com>
+Date:   Tue Aug 7 10:50:32 2018 -0300
+
+    Adicionado o JPA, H2 e Postgres
+
+[33mcommit f58d6e5eed1f493a468609a7e36bdecdb5460fb0[m
+Author: Luiz Henrique Longhi Rossi <lh.rossi@gmail.com>
+Date:   Mon Jul 30 15:31:48 2018 -0300
+
+    tinha faltado adicionar os arquivos novos
+
+[33mcommit 4a3718b64632f144bb9d765f9bebfdfe09c04660[m
+Author: Luiz Henrique Longhi Rossi <lh.rossi@gmail.com>
+Date:   Mon Jul 30 13:52:14 2018 -0300
+
+    Refatoração para MVC
+
+[33mcommit 949af5241aa27367ad923807acd7d675ab8dda79[m
+Author: Luiz Henrique Longhi Rossi <lh.rossi@gmail.com>
+Date:   Mon Jul 30 13:21:25 2018 -0300
+
+    refatoração total, usando spring boot
+
+[33mcommit 240c8e216868ff4b4af9526944550bebbab3be75[m
+Author: Luiz Henrique Longhi Rossi <lh.rossi@gmail.com>
+Date:   Fri Jul 27 17:26:20 2018 -0300
+
+    correção do nome do pacote de run.
+
+[33mcommit 94f19307a679d495fc451f73d5daf5070bef282a[m
+Author: Luiz Henrique Longhi Rossi <lh.rossi@gmail.com>
+Date:   Fri Jul 27 17:15:14 2018 -0300
+
+    refatoração para usar maven e estrutura do projeto
+
+[33mcommit 9e7db5bd320e3c40746f6dbecf7fca72d18b7d0c[m
+Author: Luís Augusto Weber Mercado <lawmercado@inf.ufrgs.br>
+Date:   Wed Jun 13 11:10:40 2018 -0300
+
+    Update of the implementation
+
+[33mcommit e5473b7892e120cbc8723a46e12a1ea738131f66[m
+Author: Luís Augusto Weber Mercado <lawmercado@inf.ufrgs.br>
+Date:   Mon May 14 13:14:55 2018 -0300
+
+    General fixes.
+
+[33mcommit f343ff745a5a19042d0594ac5e843fccc22c6021[m
+Author: Luís Augusto Weber Mercado <lawmercado@inf.ufrgs.br>
+Date:   Mon Apr 9 14:33:12 2018 -0300
+
+    Remove of autogenerated comments.
+
+[33mcommit 3ebe761969c8c2308c85d61d0a8a581d9f88e2b6[m
+Author: Luís Augusto Weber Mercado <lawmercado@inf.ufrgs.br>
+Date:   Mon Apr 9 14:32:47 2018 -0300
+
+    Remove of autogenerated comments.
+
+[33mcommit 6397d1c0b553cde000f5d7121501450d7749c717[m
+Author: Luís Augusto Weber Mercado <lawmercado@inf.ufrgs.br>
+Date:   Fri Apr 6 11:52:40 2018 -0300
+
+    Removing unecessary imports.
+
+[33mcommit 8e8316f55c176a5bb763b803f56ec0e0a9b120fc[m
+Author: Luís Augusto Weber Mercado <luiswebmercado@gmail.com>
+Date:   Wed Mar 7 17:07:30 2018 -0300
+
+    Centralization of the business rule, making this minerator domain independent.
+
+[33mcommit a08a2ac5b2bcb8ee49f3de74f7115c3bb7cf3cb9[m
+Author: Luís Augusto Weber Mercado <luiswebmercado@gmail.com>
+Date:   Thu Feb 8 17:46:41 2018 -0200
+
+    Refactoring for more clarity
+
+[33mcommit a1f8821e222b149b86e1fc0d9c5e38c15f8262a9[m
+Author: Luís Augusto Weber Mercado <luiswebmercado@gmail.com>
+Date:   Mon Jan 15 17:54:13 2018 -0200
+
+    Changing the generateRules method according to the new paradigm related to the information
+
+[33mcommit 78a332e09ec2513641beecf9feda4bd06c9d6f57[m
+Author: Luís Augusto Weber Mercado <luiswebmercado@gmail.com>
+Date:   Mon Jan 15 16:30:42 2018 -0200
+
+    Reestruturation of the webservice. Bug fixes
+
+[33mcommit 6666c5b83a3d51eac7d93bd5cc96437449a88797[m
+Author: Luís Augusto Weber Mercado <luiswebmercado@gmail.com>
+Date:   Wed Jan 3 17:23:32 2018 -0200
+
+    Implementing the basic filters related to the predefined rules. General refactoring.
+
+[33mcommit 0f43a85ea011303f747a31d7abc0df979ef2d369[m
+Author: Luís Augusto Weber Mercado <luiswebmercado@gmail.com>
+Date:   Wed Jan 3 14:35:39 2018 -0200
+
+    Initial commit of the webservice
+
+[33mcommit 08cd6900f931e8b322f766b8cfc3ea2fe41bbee9[m
+Author: tecmides <31933505+tecmides@users.noreply.github.com>
+Date:   Wed Jan 3 14:31:27 2018 -0200
+
+    Update README.md
+
+[33mcommit e3e042404821e172407440ddd51694b9c696442e[m
+Author: tecmides <31933505+tecmides@users.noreply.github.com>
+Date:   Wed Jan 3 14:31:00 2018 -0200
+
+    Create README.md
+
+[33mcommit 22dba277f77d610fbf4d1769d4f5d12a0becdf4b[m
+Author: tecmides <31933505+tecmides@users.noreply.github.com>
+Date:   Wed Jan 3 14:30:38 2018 -0200
+
+    Initial commit

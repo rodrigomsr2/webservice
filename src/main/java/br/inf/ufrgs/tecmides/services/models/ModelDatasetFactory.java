@@ -16,6 +16,7 @@ public class ModelDatasetFactory<J> {
 
     public ModelDataset create( String name, List<Attribute> attributes, Attribute classAttribute, List<J> instances ) {
         try {
+        	System.out.println("ModelDatasetFactory:\n\tName: " + name + "\n\tattributes: " + attributes + "\n\tclassAtribute: " + classAttribute + "\n\tinstances: " + instances);
             return new BaseModelDataset<>(name, attributes, classAttribute, instances);
         } catch( NoSuchFieldException ex ) {
             return null;

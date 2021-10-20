@@ -1,12 +1,16 @@
 package br.inf.ufrgs.tecmides.entities.tree;
 
 import br.inf.ufrgs.tecmides.entities.AuditModel;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+@ApiModel(value = "TreeModelInstance", description = "tree model based")
 @Entity
 public class TreeModelInstance extends AuditModel {
 
@@ -17,6 +21,7 @@ public class TreeModelInstance extends AuditModel {
     @JsonIgnore
     private Long id;
 
+	@ApiModelProperty(value = "id of the course", example = "1", required = true)
     private Long courseid;
     private Long userid;
     private String q_assign_view;

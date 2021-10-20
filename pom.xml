@@ -23,6 +23,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<dockerfile-maven-version>1.4.13</dockerfile-maven-version>
+		<spring-fox.version>2.9.2</spring-fox.version>
 	</properties>
 
 	<dependencies>
@@ -65,6 +66,24 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>${spring-fox.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>${spring-fox.version}</version>
+		</dependency>
+
+			<dependency>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok</artifactId>
+				<version>1.18.20</version>
+				<scope>provided</scope>
+			</dependency>
 	</dependencies>
 
 	<build>
@@ -98,7 +117,7 @@
 							</execution>
 						</executions>
 						<configuration>
-							<repository>rodrigomsr2/tecmides-api</repository>
+							<repository>tecmides/tecmides-api</repository>
 							<buildArgs>
 								<JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
 							</buildArgs>

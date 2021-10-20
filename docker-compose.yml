@@ -17,14 +17,15 @@ services:
       - tecmides-network
 
   tecmides-api:
-    image: rodrigomsr2/tecmides-api
+    image: tecmides/tecmides-api
     command: ["/wait-for-it.sh", "postgres:5432", "-t", "30", "--", "java", "-jar", "api.jar"]
     environment:
       DB_HOST: postgres
     ports:
       - "8080:8080"
     networks:
-      - tecmides-network
+      tecmides-network:
+        ipv4_address: 172.20.0.55
     depends_on:
       - postgres
       
@@ -44,7 +45,6 @@ services:
       
   moodle:
     image: docker.io/bitnami/moodle:3
-    command: bash -c "mkdir /bitnami/moodle/report/tecmides && install_packages git && git clone https://github.com/rodrigomsr2/plugin.git /bitnami/moodle/report/tecmides"
     ports:
       - '80:8080'
       - '443:8443'

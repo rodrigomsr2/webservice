@@ -29,6 +29,7 @@ public class TreeModelService implements ModelService<TreeModelInstance> {
     public void initialize() {
         this.datasetFactory = new ModelDatasetFactory<>();
         this.model = (new ClassificationModelFactory()).create("j48_tree", new J48Classification());
+        System.out.println("TreeModelService: \n\tModel: " + this.model + "\n\tdatasetFactory: " + this.datasetFactory);
     }
     
     @Override
